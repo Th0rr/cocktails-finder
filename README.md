@@ -8,12 +8,12 @@
 
 # How to use for non-programmers
 
-#Step 1 
+# Step 1 
 open your terminal :
 - search cmd in windows
 - or type windows key + R and type cmd then enter
 
-#Step 2
+# Step 2
 Navigate to where you unzipped the file in terminal :
 
 - Open folder location in windows explorer (normally) :![screen](command_path.png)
@@ -24,14 +24,14 @@ Navigate to where you unzipped the file in terminal :
 Note, if you have several Hard drive on your computer (C: and D:) make sure the right one is selected.
 If not, you can change it with "C:" or "D:" before entering any other command.
 
-#Step 3
+# Step 3
 Execute the program :
 
-This program takes 2 arguments : price and number of ingredients.
--b => price
+This program takes 2 arguments : price and number of ingredients.<br>
+-b => price<br>
 -n => number of ingredients
 
-Command example (once you are in the same directory than the .exe) : Main.exe -b 100 -n 4 
+Command example (once you are in the same directory than the .exe in your terminal) : Main.exe -b 100 -n 4<br>
 this command find the better combination of 4 ingredients with 100€ of budget.
 
 The results are displayed on the console and in an html file that will be opened by your default browser.
